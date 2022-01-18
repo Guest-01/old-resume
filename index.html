@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>성장중인 개발자</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Ho Hyun Jang.</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <div>
+                    <h2>안녕하세요👏, 저는 성장중인 개발자 <span class="name">장호현</span>입니다</h2>
+                    <p>👨‍🎓심리학과를 졸업하고 고객상담을 하다가 개발자로 전향했어요:)</p>
+                    <div id="history">
+                        <h3>이력</h3>
+                        <ul>
+                            <li>
+                                <span class="date">2021.05 ~ 2021.11</span>
+                                <span class="content">코드스테이츠 AI 부트캠프 03기 수료</span>
+                            </li>
+                            <li>
+                                <span class="date">2018.10 ~ 2021.05</span>
+                                <span class="content">(주)가비아 고객지원팀</span>
+                            </li>
+                            <li>
+                                <span class="date">2012.03 ~ 2019.02</span>
+                                <span class="content">중앙대학교(서울) 심리학과 졸</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="media\KakaoTalk_20220114_144243015.jpg" alt="">
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>저는 이런 사람입니다<span>(클릭하면 펼쳐볼 수 있습니다)</span></h2>
+                <details>
+                    <summary>영어를 좋아합니다</summary>
+                    <div>
+                        <p>영어로 된 각종 공식문서를 무리없이 읽을 수 있고 스택오버플로우(StackOverflow)에 직접 질문글을 올리기도 합니다.</p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://stackoverflow.com/users/14834190/guest-01">저의 스택오버플로우 프로필 바로가기</a>
+                        <figure>
+                            <img src="media\stackoverflow(2).JPG" alt="">
+                            <figcaption>2500명 이상이 읽은 질문글을 올려 받은 뱃지</figcaption>
+                        </figure>
+                    </div>
+                </details>
+                <details>
+                    <summary>글쓰기를 좋아합니다</summary>
+                    <div>
+                        <p>TIL(Today I learned...) 블로그를 운영중이며, 프로젝트를 진행하며 겪은 난관들을 기록해놓고 있습니다.</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://itncoding.tistory.com/">블로그 바로가기</a>
+                        <figure>
+                            <img src="media\blog.JPG" alt="">
+                            <figcaption>TIL블로그</figcaption>
+                        </figure>
+                    </div>
+                </details>
+                <details>
+                    <summary>다양한 분야에 관심이 있고 협업을 좋아합니다</summary>
+                    <div>
+                        <p>프론트엔드와 백엔드, 그리고 머신러닝과 관련한 프로젝트를 모두 경험해보았고 각 분야에 대한 기초적인 이해를 통해 원할한 협업의 토대를 갖추었습니다.</p>
+                        <a href="#projects">프로젝트 모음 바로가기</a>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>저는 이런 기술을 사용합니다</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Frontend</td>
+                            <td>
+                                <i class='bx bxl-html5'></i>
+                                <i class='bx bxl-css3'></i>
+                                <i class='bx bxl-javascript'></i>
+                                <span class="accent">
+                                    <i class='bx bxl-vuejs'></i>
+                                </span>
+                                <i class='bx bxl-tailwind-css'></i>
+                            </td>
+                            <td>HTML, CSS, JS, Vue, TailwindCSS</td>
+                        </tr>
+                        <tr>
+                            <td>Backend</td>
+                            <td>
+                                <i class='bx bxl-nodejs'></i>
+                                <span class="accent">
+                                    <i class='bx bxl-python'></i>
+                                </span>
+                                <i class='bx bxl-php'></i>
+                            </td>
+                            <td>NodeJS, Python, PHP</td>
+                        </tr>
+                        <tr>
+                            <td>Other Tools</td>
+                            <td>
+                                <i class='bx bxl-git'></i>
+                                <i class='bx bxl-firebase'></i>
+                            </td>
+                            <td>Git, Firebase</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>제가 참여한 프로젝트입니다</h2>
+                <div class="card">
+                    <figure>
+                        <img src="media\trybit.gif" alt="">
+                        <figcaption>
+                            모바일웹에서 동작하는 장면
+                        </figcaption>
+                    </figure>
+                    <div>
+                        <div>
+                            <div class="title">
+                                <h3>트라이빗 - Trybit</h3>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Guest-01/trybit"
+                                    class="github">
+                                    <i class='bx bxl-github'></i>
+                                    GitHub
+                                </a>
+                            </div>
+                            <span class="summary">가상화폐 모의투자 모바일 웹</span>
+                            <p class="desc">
+                                주식 모의투자는 많으나 가상화폐 모의투자 사이트는 의외로 없었습니다.
+                                가상화폐의 큰 변동성때문에 투자가 망설여지는 분들을 위해 기획하였고,
+                                프론트엔드는 Vue.js, 그리고 백엔드는 Firebase를 사용하였습니다.
+                                기획부터 배포까지 전부 혼자 진행하였으며 현재 지속 운영중입니다.
+                            </p>
+                        </div>
+                        <ul>
+                            <li>VueJS</li>
+                            <li>TailwindCSS</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="media\fys.gif" alt="">
+                        <figcaption>
+                            모바일웹에서 동작하는 장면
+                        </figcaption>
+                    </figure>
+                    <div>
+                        <div>
+                            <div class="title">
+                                <h3>당신의 소울메이트 찾기 - Find Your Soulmate</h3>
+                                <a target="_blank" rel="noopener noreferrer"
+                                    href="https://github.com/Guest-01/find-your-soulmate" class="github">
+                                    <i class='bx bxl-github'></i>
+                                    GitHub
+                                </a>
+                            </div>
+                            <span class="summary">세계 어딘가 있는 단짝 찾기</span>
+                            <p class="desc">
+                                입력된 이름을 시드로 랜덤한 외국인을 매칭시켜주는 애플리케이션입니다.
+                                API를 통해 방위(위도 경도)를 받아올 수 있어서, leaflet과 OpenStreetMap API를 사용해서 지도를 표기하였습니다.
+                            </p>
+                        </div>
+                        <ul>
+                            <li>VueJS</li>
+                            <li>TailwindCSS</li>
+                            <li>Leaflet</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="media\your-visits-laravel.png" alt="">
+                        <figcaption>
+                            라라벨 버전 예시
+                        </figcaption>
+                    </figure>
+                    <div>
+                        <div>
+                            <div class="title">
+                                <h3>Your Visits * (Flask, Express, Laravel)</h3>
+                                <a target="_blank" rel="noopener noreferrer"
+                                    href="https://github.com/Guest-01?tab=repositories&q=your-visits&type=&language=&sort="
+                                    class="github">
+                                    <i class='bx bxl-github'></i>
+                                    GitHub
+                                </a>
+                            </div>
+                            <span class="summary">백엔드 프레임워크 비교기</span>
+                            <p class="desc">
+                                여러 언어별 백엔드 프레임워크를 사용해서 방문수를 카운트하는 사이트를 만들어보았습니다.
+                                각 리파지토리에 자세한 후기 및 비교가 적혀있습니다.
+                            </p>
+                        </div>
+                        <ul>
+                            <li>Flask</li>
+                            <li>Express</li>
+                            <li>Laravel</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="media\GAN.JPG" alt="">
+                        <figcaption>
+                            생성된 금발여성 이미지
+                        </figcaption>
+                    </figure>
+                    <div>
+                        <div>
+                            <div class="title">
+                                <h3>Face Generator</h3>
+                                <a target="_blank" rel="noopener noreferrer"
+                                    href="https://github.com/Guest-01/face-generator" class="github">
+                                    <i class='bx bxl-github'></i>
+                                    GitHub
+                                </a>
+                            </div>
+                            <span class="summary">AI로 만드는 가상 여성 얼굴 이미지</span>
+                            <p class="desc">
+                                GAN(Generative Adversarial Network)를 이용하여 초상권 및 저작권 걱정이 없는 가공의 인물 사진을 만들어내는 프로젝트입니다.
+                                부트캠프 기업협업 프로젝트로 2인 팀으로 진행하였습니다.
+                                파이썬 주피터 노트북으로 Tensorflow를 활용하였습니다.
+                            </p>
+                        </div>
+                        <ul>
+                            <li>Tensorflow</li>
+                            <li>StyleGAN2-ADA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>이곳에서 저를 찾을 수 있습니다</h2>
+                <div>
+                    <div class="flex">
+                        <i class='bx bxl-gmail'></i>
+                        <span>cloudonly21@gmail.com</span>
+                    </div>
+                    <div class="flex">
+                        <i class='bx bxl-github'></i>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://github.com/Guest-01">https://github.com/Guest-01</a>
+                    </div>
+                    <div class="flex">
+                        <i class='bx bxl-blogger'></i>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://itncoding.tistory.com/">https://itncoding.tistory.com/</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            All rights reserved
+            <i class='bx bx-copyright'></i>
+            2022
+        </div>
+    </footer>
+</body>
+
+</html>
