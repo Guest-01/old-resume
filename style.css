@@ -313,4 +313,11 @@ footer {
 footer .container {
     padding: 10px 20px;
     color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .hits img {
+    box-shadow: none;
 }
